@@ -37,8 +37,22 @@ test {
 }
 
 tasks.register('runMinecraft', JavaExec) {
-    dependsOn jar
-
+    dependsOn build
+    doFirst {
+        def jarFile = file("build/libs/${project.name}-${project.version}.jar")
+        if (jarFile.exists()) {
+            def modsDir = file('mods')
+            if (!modsDir.exists()) {
+                modsDir.mkdirs()
+            }
+            copy {
+                from jarFile
+                into modsDir
+            }
+        } else {
+            println "错误: 找不到 jar 文件: ${jarFile}"
+        }
+    }
     jvmArgs "-Dfile.encoding=UTF-8"
     jvmArgs "-Dsun.stdout.encoding=UTF-8"
     jvmArgs "-Dsun.stderr.encoding=UTF-8"
