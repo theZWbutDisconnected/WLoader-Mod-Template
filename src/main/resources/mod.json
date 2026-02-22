@@ -1,5 +1,7 @@
 {
   "name":"VAPE v4.10",
   "version":"4.10",
-  "main":"org.anjurine.Main"
+  "main":"org.anjurine.Main",
+  "description":"Neo Vape mod.",
+  "mod_id":"vape"
 }
