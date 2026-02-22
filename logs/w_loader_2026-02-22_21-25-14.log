@@ -1,0 +1,14 @@
+[2026-02-22 21:25:14.830] [INFO] [main] [WLogger] 日志系统初始化成功
+[2026-02-22 21:25:14.831] [INFO] [main] [WLogger] Java版本: 25.0.1
+[2026-02-22 21:25:14.831] [INFO] [main] [WLogger] 操作系统: Windows 11
+[2026-02-22 21:25:14.831] [INFO] [main] [Bootstrap] ========== W Loader Starting ==========
+[2026-02-22 21:25:14.877] [INFO] [main] [Bootstrap] Registered self as mod: W Loader
+[2026-02-22 21:25:14.878] [INFO] [main] [ModManager] [ModManager] No mods found in: mods
+[2026-02-22 21:25:14.878] [INFO] [main] [Bootstrap] Premain done. Waiting for Minecraft to initialize...
+[2026-02-22 21:25:21.096] [INFO] [main] [ModLoader] [ModLoader] Bootstrap phase: loading mod classes...
+[2026-02-22 21:25:21.099] [INFO] [main] [ModLoader] [ModLoader] Loaded: W Loader
+[2026-02-22 21:25:21.101] [INFO] [main] [ModLoader] [ModLoader] Bootstrap phase complete.
+[2026-02-22 21:25:22.817] [DEBUG] [Render thread] [ModRepositorySource] [ModRepositorySource] Loaded pack: w_loader
+[2026-02-22 21:25:30.668] [DEBUG] [Render thread] [ModRepositorySource] [ModRepositorySource] Loaded pack: w_loader
+[2026-02-22 21:25:36.297] [DEBUG] [Render thread] [ModRepositorySource] [ModRepositorySource] Loaded pack: w_loader
+[2026-02-22 21:25:36.374] [INFO] [Server thread] [ModLoader] [ModLoader] Server starting...

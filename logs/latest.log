@@ -1,0 +1,155 @@
+[21:31:54] [Datafixer Bootstrap/INFO]: 291 Datafixer optimizations took 400 milliseconds
+[21:31:58] [pool-1-thread-1/INFO]: [STDOUT]: [32m[2026-02-22 21:31:58.262] [INFO] [main] [ModLoader] [ModLoader] Bootstrap phase: loading mod classes...[0m
+[21:31:58] [pool-1-thread-1/INFO]: [STDOUT]: [32m[2026-02-22 21:31:58.265] [INFO] [main] [ModLoader] [ModLoader] Loaded: W Loader[0m
+[21:31:58] [pool-1-thread-1/INFO]: [STDOUT]: [32m[2026-02-22 21:31:58.267] [INFO] [main] [ModLoader] [ModLoader] Bootstrap phase complete.[0m
+[21:31:58] [Render thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[21:31:58] [Render thread/INFO]: Setting user: TestPlayer
+[21:31:58] [Render thread/INFO]: Backend library: LWJGL version 3.4.1+2
+[21:31:59] [Download-2/ERROR]: Failed to fetch user properties
+com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
+	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:59)
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:150)
+	at net.minecraft.client.Minecraft.lambda$new$1(Minecraft.java:454)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run$$$capture(CompletableFuture.java:1789)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 401
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:103)
+	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:56)
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:121)
+	... 6 more
+[21:31:59] [Render thread/INFO]: Using optional rendering extensions: GL_ARB_buffer_storage, GL_KHR_debug, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access, GL_EXT_texture_filter_anisotropic
+[21:31:59] [Render thread/WARN]: Missing metadata in pack W Loader
+[21:31:59] [pool-1-thread-1/INFO]: [STDOUT]: [36m[2026-02-22 21:31:59.587] [DEBUG] [Render thread] [ModRepositorySource] [ModRepositorySource] Loaded pack: w_loader[0m
+[21:32:00] [Render thread/INFO]: Reloading ResourceManager: vanilla, w_loader
+[21:32:00] [Download-2/INFO]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
+[21:32:00] [Download-2/ERROR]: Failed to fetch Realms feature flags
+com.mojang.realmsclient.exception.RealmsServiceException: Realms authentication error with message 'java.lang.RuntimeException: Failed to parse into SignedJWT: 0'
+	at com.mojang.realmsclient.client.RealmsClient.execute(RealmsClient.java:526)
+	at com.mojang.realmsclient.client.RealmsClient.fetchFeatureFlags(RealmsClient.java:186)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run$$$capture(CompletableFuture.java:1789)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[21:32:00] [Worker-Main-10/INFO]: Found unifont_pua-17.0.01.hex, loading
+[21:32:00] [Worker-Main-13/INFO]: Found unifont_all_no_pua-17.0.01.hex, loading
+[21:32:00] [Worker-Main-7/INFO]: Found unifont_jp_patch-17.0.01.hex, loading
+[21:32:03] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Speaker (Realtek(R) Audio)
+[21:32:03] [Render thread/INFO]: Sound engine started
+[21:32:03] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[21:32:03] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/decorated_pot.png-atlas
+[21:32:03] [Render thread/INFO]: Created: 2048x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
+[21:32:03] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[21:32:03] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
+[21:32:03] [Render thread/INFO]: Created: 2048x2048x4 minecraft:textures/atlas/blocks.png-atlas
+[21:32:03] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/chest.png-atlas
+[21:32:03] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/celestials.png-atlas
+[21:32:03] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
+[21:32:03] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/beds.png-atlas
+[21:32:03] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/items.png-atlas
+[21:32:03] [Render thread/INFO]: Created: 1024x1024x0 minecraft:textures/atlas/gui.png-atlas
+[21:32:03] [Render thread/INFO]: Created: 128x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[21:32:03] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/signs.png-atlas
+[21:32:03] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/shulker_boxes.png-atlas
+[21:32:03] [IO-Worker-1/INFO]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
+[21:32:03] [IO-Worker-1/ERROR]: Couldn't connect to realms
+com.mojang.realmsclient.exception.RealmsServiceException: Realms authentication error with message 'java.lang.RuntimeException: Failed to parse into SignedJWT: 0'
+	at com.mojang.realmsclient.client.RealmsClient.execute(RealmsClient.java:526)
+	at com.mojang.realmsclient.client.RealmsClient.clientCompatible(RealmsClient.java:307)
+	at com.mojang.realmsclient.RealmsAvailability.lambda$check$0(RealmsAvailability.java:48)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run$$$capture(CompletableFuture.java:1789)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+[21:32:08] [Render thread/WARN]: Missing metadata in pack W Loader
+[21:32:08] [pool-1-thread-1/INFO]: [STDOUT]: [36m[2026-02-22 21:32:08.258] [DEBUG] [Render thread] [ModRepositorySource] [ModRepositorySource] Loaded pack: w_loader[0m
+[21:32:08] [Worker-Main-4/ERROR]: Unable to read or access the world gen settings file! Falling back to the default settings with a random world seed. .\run\saves\New World\data\minecraft\world_gen_settings.dat
+[21:32:08] [Render thread/WARN]: Failed to load level data or datapacks, can't proceed with server load
+java.util.concurrent.ExecutionException: java.lang.IllegalStateException: Overworld settings missing
+	at java.base/java.util.concurrent.CompletableFuture.wrapInExecutionException(CompletableFuture.java:345)
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:440)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2094)
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldDataBlocking(WorldOpenFlows.java:213)
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldStem(WorldOpenFlows.java:155)
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldLoadLevelStem(WorldOpenFlows.java:434)
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.lambda$upgradeAndOpenWorld$2(WorldOpenFlows.java:383)
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:173)
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:23)
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:147)
+	at net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:127)
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1308)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:954)
+	at net.minecraft.client.main.Main.main(Main.java:248)
+Caused by: java.lang.IllegalStateException: Overworld settings missing
+	at net.minecraft.world.level.levelgen.WorldDimensions.<init>(WorldDimensions.java:57)
+	at net.minecraft.world.level.levelgen.WorldDimensions.<init>(WorldDimensions.java:62)
+	at net.minecraft.world.level.storage.LevelStorageSource.lambda$getLevelDataAndDimensions$0(LevelStorageSource.java:148)
+	at com.mojang.serialization.DataResult$Error.mapOrElse(DataResult.java:309)
+	at net.minecraft.world.level.storage.LevelStorageSource.getLevelDataAndDimensions(LevelStorageSource.java:146)
+	at net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.lambda$loadWorldStem$0(WorldOpenFlows.java:158)
+	at net.minecraft.server.WorldLoader.lambda$load$2(WorldLoader.java:46)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1171)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:504)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec$$$capture(ForkJoinTask.java:511)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1450)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2019)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
+[21:32:12] [Render thread/INFO]: Deleting level New World
+[21:32:12] [Render thread/INFO]: Attempt 1...
+[21:32:12] [Render thread/INFO]: Resizing Dynamic Transforms UBO, capacity limit of 2 reached during a single frame. New capacity will be 4.
+[21:32:12] [Render thread/WARN]: Missing metadata in pack W Loader
+[21:32:12] [Render thread/INFO]: Found new data pack w_loader, loading it automatically
+[21:32:12] [pool-1-thread-1/INFO]: [STDOUT]: [36m[2026-02-22 21:32:12.452] [DEBUG] [Render thread] [ModRepositorySource] [ModRepositorySource] Loaded pack: w_loader[0m
+[21:32:13] [Render thread/INFO]: Loaded 1515 recipes
+[21:32:13] [Render thread/INFO]: Loaded 1617 advancements
+[21:32:16] [Render thread/WARN]: Missing metadata in pack W Loader
+[21:32:16] [pool-1-thread-1/INFO]: [STDOUT]: [36m[2026-02-22 21:32:16.259] [DEBUG] [Render thread] [ModRepositorySource] [ModRepositorySource] Loaded pack: w_loader[0m
+[21:32:16] [Server thread/INFO]: Starting integrated minecraft server version 26.1 Snapshot 9
+[21:32:16] [Server thread/INFO]: Generating keypair
+[21:32:16] [pool-1-thread-1/INFO]: [STDOUT]: [32m[2026-02-22 21:32:16.342] [INFO] [Server thread] [ModLoader] [ModLoader] Server starting...[0m
+[21:32:16] [Server thread/INFO]: Selecting global world spawn...
+[21:32:16] [Server thread/INFO]: Loading 0 persistent chunks...
+[21:32:16] [Server thread/INFO]: Preparing spawn area: 16%
+[21:32:17] [Render thread/WARN]: Missing metadata in pack W Loader
+[21:32:17] [pool-1-thread-1/INFO]: [STDOUT]: [36m[2026-02-22 21:32:17.068] [DEBUG] [Render thread] [ModRepositorySource] [ModRepositorySource] Loaded pack: w_loader[0m
+[21:32:17] [Server thread/INFO]: Loading 47 chunks for player spawn...
+[21:32:17] [Server thread/INFO]: Preparing spawn area: 16%
+[21:32:17] [Server thread/INFO]: Time elapsed: 794 ms
+[21:32:17] [Server thread/INFO]: TestPlayer[local:E:f8bbd22f] logged in with entity id 1 at (-2.5, -60.0, -3.5)
+[21:32:17] [Server thread/INFO]: TestPlayer joined the game
+[21:32:17] [Server thread/INFO]: Changing view distance to 16, from 10
+[21:32:17] [Server thread/INFO]: Changing simulation distance to 12, from 0
+[21:32:17] [Render thread/INFO]: Resizing Dynamic Transforms UBO, capacity limit of 4 reached during a single frame. New capacity will be 8.
+[21:32:17] [Render thread/INFO]: Loaded 2 advancements
+[21:32:17] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 2 reached during a single frame. New capacity will be 4.
+[21:32:18] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 4 reached during a single frame. New capacity will be 8.
+[21:32:18] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 8 reached during a single frame. New capacity will be 16.
+[21:32:18] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 16 reached during a single frame. New capacity will be 32.
+[21:32:18] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 32 reached during a single frame. New capacity will be 64.
+[21:32:19] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 64 reached during a single frame. New capacity will be 128.
+[21:32:19] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 128 reached during a single frame. New capacity will be 256.
+[21:32:21] [Render thread/INFO]: Resizing Chunk Sections UBO, capacity limit of 256 reached during a single frame. New capacity will be 512.
+[21:33:09] [Render thread/INFO]: Loaded 6 advancements
+[21:33:23] [Render thread/INFO]: Resizing Dynamic Transforms UBO, capacity limit of 8 reached during a single frame. New capacity will be 16.
+[21:33:41] [Server thread/INFO]: TestPlayer has made the advancement [Monster Hunter]
+[21:33:41] [Render thread/INFO]: [System] [CHAT] TestPlayer has made the advancement [Monster Hunter]
+[21:33:41] [Render thread/INFO]: Loaded 48 advancements
+[21:33:54] [Render thread/INFO]: Stopping!
+[21:33:54] [Server thread/INFO]: Stopping server
+[21:33:54] [Server thread/INFO]: Saving players
+[21:33:54] [Server thread/INFO]: TestPlayer lost connection: Disconnected
+[21:33:54] [Server thread/INFO]: TestPlayer left the game
+[21:33:54] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[21:33:54] [Server thread/INFO]: Saving worlds
+[21:33:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[21:33:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[21:33:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[21:33:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:33:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:33:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:33:56] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

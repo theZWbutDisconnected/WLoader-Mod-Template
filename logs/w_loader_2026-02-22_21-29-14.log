@@ -1,0 +1,7 @@
+[2026-02-22 21:29:14.442] [INFO] [main] [WLogger] 日志系统初始化成功
+[2026-02-22 21:29:14.442] [INFO] [main] [WLogger] Java版本: 25.0.1
+[2026-02-22 21:29:14.442] [INFO] [main] [WLogger] 操作系统: Windows 11
+[2026-02-22 21:29:14.442] [INFO] [main] [Bootstrap] ========== W Loader Starting ==========
+[2026-02-22 21:29:14.508] [INFO] [main] [Bootstrap] Registered self as mod: W Loader
+[2026-02-22 21:29:14.510] [INFO] [main] [ModManager] [ModManager] No mods found in: mods
+[2026-02-22 21:29:14.510] [INFO] [main] [Bootstrap] Premain done. Waiting for Minecraft to initialize...
